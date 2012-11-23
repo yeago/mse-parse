@@ -1,4 +1,4 @@
-from .mse import unzip_mse, set_data
+from mseparse.parse.mse2 import unzip_mse, set_data
 from zipfile import BadZipfile
 
 try:
