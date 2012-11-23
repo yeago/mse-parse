@@ -2,7 +2,7 @@ import zipfile
 import datetime
 import yaml
 import re
-from wikisyntax.fix_unicode import fix_unicode
+from ..utils.fix_unicode import fix_unicode
 from django.utils.html import strip_tags
 
 
